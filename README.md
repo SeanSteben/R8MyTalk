@@ -16,15 +16,12 @@ Upon success R8MyTalk will be hosted on your local machine and can be viewed usi
 Render
 R8MyTalk is currently deployed using render as a hosting service. It is currently enrolled in the free plan which is slow when initially loading (approximately 1 min).
 URL: https://r8mytalk.onrender.com/
-Render Sign-In credentials:
-Email: cs510test1234@gmail.com 
-Password: CodeDevilsAreGreat!
+
 Render is set up to deploy what is in the main branch of the associated github project which is currently https://github.com/Gulloje/CS510Project. When changes are pushed to main they will show on the hosted website. 
 Firebase
 Google Firebase services are being used to store information. https://console.firebase.google.com/project/r8mytalk/storage/r8mytalk.appspot.com/files
 FireBase Sign-In credentials:
-Email: cs510test1234@gmail.com
-Password: 1234qwerASDF!
+
 
 R8MyTalk is using Authentication for authentication, FireStore Database for user account information, and Storage for user files (QR codes, presentation files). For help regarding Firebase refer to the R8MyTalk source code or documentation within Firebase.
  Functionalities.
